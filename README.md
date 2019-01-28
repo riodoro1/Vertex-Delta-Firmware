@@ -1,3 +1,16 @@
+# Fork
+This is a fork of the original firmware published by Velleman.
+This fork adds new Marlin (1.1.9) version that was recreated by using 
+the original modifications and making new ones in the new source tree of 
+Marlin.
+In order to use the updated version you must init submodules after 
+cloning, run `git submodule update --init`.
+Thanks to psychokiller from the vertex delta forum for being the first 
+one to update the firmware, I used some of his work here. 
+
+I may also tweak the 1.1.4 code a bit but there's no point in using 
+1.114 anymore.
+
 # Vertex Delta 3D Printer Firmware
 Based on the Marlin Firmware.
 Additional documentation can be found in [The Marlin Wiki](https://github.com/MarlinFirmware/Marlin/wiki).
